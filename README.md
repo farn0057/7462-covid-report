@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-03 17:49:11
+Report last run: 2023-03-03 21:36:20
 
 ## Introduction
 
@@ -32,7 +32,7 @@ rate_data <- county_data %>%
   select(date, state, county, cases) %>%
   mutate(date = ymd(date)) %>%
   left_join(pops, by = c("state", "county")) %>%
-  group_by(state, county) %>%
+  group_by( county) %>%
   mutate(cases_lag = lag(cases, LAG_DAYS),
          totalcases_last = cases - cases_lag) %>%
   ungroup() %>%
@@ -105,25 +105,25 @@ rate_data %>%
   knitr::kable()
 ```
 
-| county        | state          |    pop | covid_rate |
-|:--------------|:---------------|-------:|-----------:|
-| Loving        | Texas          |    169 |       2367 |
-| Washington    | Mississippi    |  43909 |       1043 |
-| Clark         | Kansas         |   1994 |        802 |
-| Rolette       | North Dakota   |  14176 |        705 |
-| Menominee     | Wisconsin      |   4556 |        658 |
-| Neshoba       | Mississippi    |  29118 |        611 |
-| Rawlins       | Kansas         |   2530 |        593 |
-| Humphreys     | Mississippi    |   8064 |        570 |
-| Traverse      | Minnesota      |   3259 |        552 |
-| Dorchester    | South Carolina | 162809 |        527 |
-| Keweenaw      | Michigan       |   2116 |        520 |
-| Lawrence      | Mississippi    |  12586 |        509 |
-| Madison       | Mississippi    | 106272 |        472 |
-| Walthall      | Mississippi    |  14286 |        469 |
-| Franklin      | Mississippi    |   7713 |        454 |
-| Concho        | Texas          |   2726 |        440 |
-| Warren        | Mississippi    |  45381 |        427 |
-| Marion        | Mississippi    |  24573 |        427 |
-| Oglala Lakota | South Dakota   |  14177 |        423 |
-| Webster       | Mississippi    |   9689 |        413 |
+| county     | state          |     pop | covid_rate |
+|:-----------|:---------------|--------:|-----------:|
+| Boyd       | Kentucky       |   46718 |      47934 |
+| Harlan     | Kentucky       |   26010 |      47712 |
+| Teton      | Wyoming        |   23464 |      45141 |
+| Knox       | Kentucky       |   31145 |      44357 |
+| Logan      | Illinois       |   28618 |      43668 |
+| Adams      | Illinois       |   65435 |      41614 |
+| Grant      | West Virginia  |   11568 |      40716 |
+| San Juan   | New Mexico     |  123958 |      40640 |
+| Morton     | North Dakota   |   31364 |      39781 |
+| Mercer     | Kentucky       |   21933 |      38964 |
+| Nassau     | New York       | 1356924 |      38567 |
+| Surry      | North Carolina |   71783 |      37886 |
+| Dorchester | South Carolina |  162809 |      37879 |
+| Stark      | North Dakota   |   31489 |      37848 |
+| Brown      | Wisconsin      |  264542 |      37783 |
+| Jackson    | Kentucky       |   13329 |      37692 |
+| Carter     | Tennessee      |   56391 |      37667 |
+| Blaine     | Montana        |    6681 |      37599 |
+| Greene     | Tennessee      |   69069 |      37490 |
+| Dewey      | South Dakota   |    5892 |      37220 |
