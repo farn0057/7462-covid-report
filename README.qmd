@@ -38,7 +38,7 @@ rate_data <- county_data %>%
   select(date, state, county, cases) %>%
   mutate(date = ymd(date)) %>%
   left_join(pops, by = c("state", "county")) %>%
-  group_by(state, county) %>%
+  group_by( county) %>%
   mutate(cases_lag = lag(cases, LAG_DAYS),
          totalcases_last = cases - cases_lag) %>%
   ungroup() %>%
