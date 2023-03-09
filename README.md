@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-08 22:22:00
+Report last run: 2023-03-09 22:20:46
 
 ## Introduction
 
@@ -110,20 +110,20 @@ rate_data %>%
 | Boyd       | Kentucky       |   46718 |      48118 |
 | Harlan     | Kentucky       |   26010 |      47859 |
 | Teton      | Wyoming        |   23464 |      45154 |
-| Knox       | Kentucky       |   31145 |      44434 |
+| Knox       | Kentucky       |   31145 |      44418 |
 | Logan      | Illinois       |   28618 |      43665 |
 | Adams      | Illinois       |   65435 |      41614 |
-| Grant      | West Virginia  |   11568 |      40716 |
-| San Juan   | New Mexico     |  123958 |      40679 |
+| Grant      | West Virginia  |   11568 |      40854 |
+| San Juan   | New Mexico     |  123958 |      40694 |
 | Morton     | North Dakota   |   31364 |      39861 |
 | Mercer     | Kentucky       |   21933 |      39087 |
-| Nassau     | New York       | 1356924 |      38581 |
+| Nassau     | New York       | 1356924 |      38587 |
+| Surry      | North Carolina |   71783 |      37963 |
 | Dorchester | South Carolina |  162809 |      37955 |
 | Stark      | North Dakota   |   31489 |      37886 |
-| Surry      | North Carolina |   71783 |      37884 |
-| Brown      | Wisconsin      |  264542 |      37828 |
+| Brown      | Wisconsin      |  264542 |      37844 |
 | Jackson    | Kentucky       |   13329 |      37797 |
-| Carter     | Tennessee      |   56391 |      37666 |
+| Carter     | Tennessee      |   56391 |      37784 |
 | Blaine     | Montana        |    6681 |      37629 |
-| Greene     | Tennessee      |   69069 |      37490 |
-| Sioux      | North Dakota   |    4230 |      37258 |
+| Greene     | Tennessee      |   69069 |      37571 |
+| Dewey      | South Dakota   |    5892 |      37373 |
