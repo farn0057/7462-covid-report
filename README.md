@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-11 22:18:08
+Report last run: 2023-03-12 22:18:28
 
 ## Introduction
 
@@ -111,16 +111,16 @@ rate_data %>%
 | Harlan     | Kentucky       |   26010 |      47859 |
 | Teton      | Wyoming        |   23464 |      45154 |
 | Knox       | Kentucky       |   31145 |      44418 |
-| Logan      | Illinois       |   28618 |      43728 |
-| Adams      | Illinois       |   65435 |      41698 |
+| Logan      | Illinois       |   28618 |      43724 |
+| Adams      | Illinois       |   65435 |      41695 |
 | Grant      | West Virginia  |   11568 |      40854 |
 | San Juan   | New Mexico     |  123958 |      40730 |
-| Morton     | North Dakota   |   31364 |      39941 |
+| Morton     | North Dakota   |   31364 |      39944 |
 | Mercer     | Kentucky       |   21933 |      39087 |
-| Nassau     | New York       | 1356924 |      38600 |
-| Surry      | North Carolina |   71783 |      37963 |
+| Nassau     | New York       | 1356924 |      38604 |
+| Surry      | North Carolina |   71783 |      37956 |
 | Dorchester | South Carolina |  162809 |      37951 |
-| Stark      | North Dakota   |   31489 |      37921 |
+| Stark      | North Dakota   |   31489 |      37905 |
 | Brown      | Wisconsin      |  264542 |      37865 |
 | Jackson    | Kentucky       |   13329 |      37797 |
 | Carter     | Tennessee      |   56391 |      37784 |
