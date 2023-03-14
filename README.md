@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-13 22:19:45
+Report last run: 2023-03-14 22:19:18
 
 ## Introduction
 
@@ -107,22 +107,22 @@ rate_data %>%
 
 | county     | state          |     pop | covid_rate |
 |:-----------|:---------------|--------:|-----------:|
-| Boyd       | Kentucky       |   46718 |      48118 |
-| Harlan     | Kentucky       |   26010 |      47859 |
+| Boyd       | Kentucky       |   46718 |      48204 |
+| Harlan     | Kentucky       |   26010 |      47893 |
 | Teton      | Wyoming        |   23464 |      45150 |
-| Knox       | Kentucky       |   31145 |      44418 |
+| Knox       | Kentucky       |   31145 |      44466 |
 | Logan      | Illinois       |   28618 |      43724 |
 | Adams      | Illinois       |   65435 |      41695 |
 | Grant      | West Virginia  |   11568 |      40854 |
-| San Juan   | New Mexico     |  123958 |      40730 |
+| San Juan   | New Mexico     |  123958 |      40758 |
 | Morton     | North Dakota   |   31364 |      39944 |
-| Mercer     | Kentucky       |   21933 |      39087 |
-| Nassau     | New York       | 1356924 |      38608 |
+| Mercer     | Kentucky       |   21933 |      39137 |
+| Nassau     | New York       | 1356924 |      38612 |
 | Surry      | North Carolina |   71783 |      37956 |
-| Dorchester | South Carolina |  162809 |      37949 |
+| Dorchester | South Carolina |  162809 |      37948 |
 | Stark      | North Dakota   |   31489 |      37905 |
 | Brown      | Wisconsin      |  264542 |      37865 |
-| Jackson    | Kentucky       |   13329 |      37797 |
+| Jackson    | Kentucky       |   13329 |      37850 |
 | Carter     | Tennessee      |   56391 |      37784 |
 | Sioux      | North Dakota   |    4230 |      37683 |
 | Blaine     | Montana        |    6681 |      37659 |
