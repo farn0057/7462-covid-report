@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-17 22:19:13
+Report last run: 2023-03-18 22:17:46
 
 ## Introduction
 
@@ -114,16 +114,16 @@ rate_data %>%
 | Logan      | Illinois       |   28618 |      43780 |
 | Adams      | Illinois       |   65435 |      41777 |
 | Grant      | West Virginia  |   11568 |      40966 |
-| San Juan   | New Mexico     |  123958 |      40807 |
-| Morton     | North Dakota   |   31364 |      39944 |
+| San Juan   | New Mexico     |  123958 |      40812 |
+| Morton     | North Dakota   |   31364 |      40017 |
 | Mercer     | Kentucky       |   21933 |      39124 |
-| Nassau     | New York       | 1356924 |      38625 |
+| Nassau     | New York       | 1356924 |      38630 |
 | Surry      | North Carolina |   71783 |      38030 |
-| Dorchester | South Carolina |  162809 |      38005 |
-| Brown      | Wisconsin      |  264542 |      37918 |
-| Stark      | North Dakota   |   31489 |      37905 |
+| Dorchester | South Carolina |  162809 |      38000 |
+| Stark      | North Dakota   |   31489 |      37959 |
+| Brown      | Wisconsin      |  264542 |      37926 |
 | Carter     | Tennessee      |   56391 |      37882 |
 | Jackson    | Kentucky       |   13329 |      37842 |
+| Blaine     | Montana        |    6681 |      37719 |
 | Sioux      | North Dakota   |    4230 |      37683 |
-| Blaine     | Montana        |    6681 |      37659 |
 | Greene     | Tennessee      |   69069 |      37617 |
