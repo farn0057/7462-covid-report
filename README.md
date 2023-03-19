@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-18 22:17:46
+Report last run: 2023-03-19 22:18:28
 
 ## Introduction
 
@@ -117,10 +117,10 @@ rate_data %>%
 | San Juan   | New Mexico     |  123958 |      40812 |
 | Morton     | North Dakota   |   31364 |      40017 |
 | Mercer     | Kentucky       |   21933 |      39124 |
-| Nassau     | New York       | 1356924 |      38630 |
-| Surry      | North Carolina |   71783 |      38030 |
-| Dorchester | South Carolina |  162809 |      38000 |
-| Stark      | North Dakota   |   31489 |      37959 |
+| Nassau     | New York       | 1356924 |      38636 |
+| Surry      | North Carolina |   71783 |      38026 |
+| Dorchester | South Carolina |  162809 |      37998 |
+| Stark      | North Dakota   |   31489 |      37937 |
 | Brown      | Wisconsin      |  264542 |      37926 |
 | Carter     | Tennessee      |   56391 |      37882 |
 | Jackson    | Kentucky       |   13329 |      37842 |
